@@ -1,0 +1,22 @@
+@mixin bp($point) {
+  
+  @if $point == max {
+    @media #{$brk-max} { @content; }
+  }
+  @else if $point == narrow {
+    @media #{$brk-narrow} { @content; }
+  }
+  @else if $point == wide {
+    @media #{$brk-wide}  { @content; }
+  }
+}
+
+@mixin textDecor {
+  text-decoration: none;
+  color: black;
+}
+
+@mixin imglayout {
+  display: inline-block;
+  max-width: 32%;
+}

@@ -1,0 +1,126 @@
+
+@import url("http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+
+body {
+  color: $bcolor;
+  font-size: $pxsize;
+  font-family: $font;
+  line-height: 1.5;
+  font-weight: 300;
+  
+  @include bp(wide) {
+    background-color: $background;
+  }
+}
+
+h1 {
+  @extend %padding-top;
+}
+
+h2 {
+  text-transform: $ucase;
+  font-size: $msize;
+  padding: 20px 0;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+h1, h2, h3 {
+  @extend %center;
+}
+
+.main-content {
+  padding: 0 25px 0 25px;
+  
+  @include bp(narrow) {
+    
+    .search {
+      float: right;
+      width: $width;
+    }
+
+    .travel {
+      float: left;
+      width: $width;
+      clear: right;
+    }
+  
+    .map {
+      float: right;
+      width: $width;
+    }
+   
+    .photo {
+      float: left;
+      width: $width;
+      clear: right;
+    }
+  
+    .calc {
+      float: right;
+      width: $width;
+    }
+  }
+  
+  @include bp(wide) {
+    background-color: $white;
+    margin: 0 30px;
+    clear: both;
+    
+    .port {
+      @include imglayout;
+    }
+    
+    .search {
+      @include imglayout;
+      float: none;
+      margin: 0 10px 0 21px;
+    }
+    
+    .travel {
+      float: right;
+      @include imglayout;
+      
+      p {
+        padding-bottom: 0;
+      }
+    }
+  
+    .map {
+      @include imglayout;
+      float: left;
+      clear: right;
+    }
+  
+    .photo {
+      @include imglayout;
+      float: none;
+      margin: 0 10px 0 21px;
+    }
+  
+    .calc {
+      @include imglayout;
+      float: right;  
+    }
+  }
+}
+
+@include bp(narrow) {
+  .port {
+    float: left;
+    clear: right;
+    width: $width;
+      
+    p {
+      margin-bottom: 0;
+      padding-bottom: 0;  
+    } 
+  }
+}
+
+p {
+  padding: 0 15px 20px 15px;
+  @extend %center;
+}

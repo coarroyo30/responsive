@@ -1,0 +1,22 @@
+header img {
+  max-width: 75%;
+  margin: auto;
+  padding: 35px 0 0 0;
+  display: block; 
+  
+  @include bp(narrow) {
+    max-width: 45%;
+    float: right;
+    clear: left;
+    padding-left: 10px;
+  }
+  
+  @include bp(wide) {
+    margin: 0 50px;
+    clear: both;
+  } 
+}
+
+img {
+  max-width: 100%;
+}

@@ -1,0 +1,1233 @@
+!SESSION 2016-11-17 13:52:17.086 -----------------------------------------------
+eclipse.buildId=3.6.1.201410201044
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/carlosarroyo/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/carlosarroyo/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2016-11-17 13:52:57.113
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.osgi 2 1 2016-11-17 13:55:15.516
+!MESSAGE NLS missing message: HttpServerSettingsTab_Title in: com.aptana.js.debug.ui.internal.launchConfigurations.messages
+
+!ENTRY org.eclipse.ui 4 0 2016-11-17 14:03:53.041
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.widgets.Control.internal_new_GC(Control.java:2118)
+	at org.eclipse.swt.graphics.GC.cocoa_new(GC.java:207)
+	at org.eclipse.swt.widgets.Tree.sendMeasureItem(Tree.java:2593)
+	at org.eclipse.swt.widgets.Tree.cellSize(Tree.java:288)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5446)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper_stret(Native Method)
+	at org.eclipse.swt.widgets.Widget.expansionFrameWithFrame_inView(Widget.java:798)
+	at org.eclipse.swt.widgets.Tree.expansionFrameWithFrame_inView(Tree.java:1271)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5825)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend_bool(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSRunLoop.runMode(NSRunLoop.java:42)
+	at org.eclipse.swt.widgets.Display.sleep(Display.java:4610)
+	at org.eclipse.ui.application.WorkbenchAdvisor.eventLoopIdle(WorkbenchAdvisor.java:364)
+	at com.aptana.rcp.IDEWorkbenchAdvisor.eventLoopIdle(IDEWorkbenchAdvisor.java:893)
+	at org.eclipse.ui.internal.Workbench$3.eventLoopIdle(Workbench.java:487)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1117)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at com.aptana.rcp.IDEApplication.start(IDEApplication.java:126)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-11-18 17:37:13.326
+!MESSAGE An internal error occurred during: "Sending Analytics Ping ...".
+!STACK 0
+java.lang.NullPointerException
+	at com.aptana.usage.internal.DefaultAnalyticsEventHandler.getAnalyticsLogger(DefaultAnalyticsEventHandler.java:207)
+	at com.aptana.usage.internal.DefaultAnalyticsEventHandler.sendEventSync(DefaultAnalyticsEventHandler.java:224)
+	at com.aptana.usage.internal.DefaultAnalyticsEventHandler$1.run(DefaultAnalyticsEventHandler.java:75)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SESSION 2016-11-18 17:42:28.571 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/carlosarroyo/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/carlosarroyo/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.392
+!MESSAGE Unable to find feature.xml in directory: /Volumes/portfolio/Aptana Studio 3/features/._com.aptana.feature.rcp_3.6.0.201410201044-7q7fFA2FEB7f0Xksz0bSy9-Gg8I4
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.392
+!MESSAGE Unable to find feature.xml in directory: /Volumes/portfolio/Aptana Studio 3/features/._com.aptana.feature.studio_3.6.0.201410201030-7f7H37k7XZpgc5KV8SsTCtaC6n3z
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.394
+!MESSAGE Unable to find feature.xml in directory: /Volumes/portfolio/Aptana Studio 3/features/._com.aptana.feature_3.6.2.1413590556-B07o89BabgaJTVkGD9833355984B
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.395
+!MESSAGE Unable to find feature.xml in directory: /Volumes/portfolio/Aptana Studio 3/features/._com.aptana.ide.feature.libraries.subscription_2.0.3.1349744907-3-2244873A381
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.397
+!MESSAGE Unable to find feature.xml in directory: /Volumes/portfolio/Aptana Studio 3/features/._com.aptana.php.feature_3.6.1.201410171731-7J7E-7ISDejnREiH
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.398
+!MESSAGE Unable to find feature.xml in directory: /Volumes/portfolio/Aptana Studio 3/features/._com.aptana.pydev.feature_3.0.0.201410171802-7v--7uVyx2EKHY
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.399
+!MESSAGE Unable to find feature.xml in directory: /Volumes/portfolio/Aptana Studio 3/features/._org.eclipse.e4.rcp_1.2.2.v20140206-1358
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.401
+!MESSAGE Unable to find feature.xml in directory: /Volumes/portfolio/Aptana Studio 3/features/._org.eclipse.emf.common_2.9.2.v20131212-0545
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.402
+!MESSAGE Unable to find feature.xml in directory: /Volumes/portfolio/Aptana Studio 3/features/._org.eclipse.emf.ecore_2.9.2.v20131212-0545
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.404
+!MESSAGE Unable to find feature.xml in directory: /Volumes/portfolio/Aptana Studio 3/features/._org.eclipse.equinox.p2.core.feature_1.2.1.v20140221-1852
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.405
+!MESSAGE Unable to find feature.xml in directory: /Volumes/portfolio/Aptana Studio 3/features/._org.eclipse.equinox.p2.extras.feature_1.2.0.v20140221-1852
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.407
+!MESSAGE Unable to find feature.xml in directory: /Volumes/portfolio/Aptana Studio 3/features/._org.eclipse.equinox.p2.rcp.feature_1.2.0.v20140221-1852
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.408
+!MESSAGE Unable to find feature.xml in directory: /Volumes/portfolio/Aptana Studio 3/features/._org.eclipse.equinox.p2.user.ui_2.2.0.v20140221-1852
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.410
+!MESSAGE Unable to find feature.xml in directory: /Volumes/portfolio/Aptana Studio 3/features/._org.eclipse.help_2.0.2.v20140221-1700
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.411
+!MESSAGE Unable to find feature.xml in directory: /Volumes/portfolio/Aptana Studio 3/features/._org.eclipse.platform_4.3.2.v20140221-1852
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.412
+!MESSAGE Unable to find feature.xml in directory: /Volumes/portfolio/Aptana Studio 3/features/._org.eclipse.rcp_4.3.2.v20140221-1700
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.414
+!MESSAGE Unable to find feature.xml in directory: /Volumes/portfolio/Aptana Studio 3/features/._org.radrails.rails_3.6.1.1408558425-7n-7Z7oRIvAHSB7Z
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.460
+!MESSAGE Unable to access file "plugins/._beaver_3.0.0.1346444146.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.468
+!MESSAGE Unable to access file "plugins/._com.aptana.browser_3.0.0.1395863261.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.474
+!MESSAGE Unable to access file "plugins/._com.aptana.build.ui_3.0.0.1342114703.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.479
+!MESSAGE Unable to access file "plugins/._com.aptana.buildpath.core_3.1.0.1407781207.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.483
+!MESSAGE Unable to access file "plugins/._com.aptana.commandline.launcher_3.0.3.1346080293.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.488
+!MESSAGE Unable to access file "plugins/._com.aptana.configurations_3.0.3.1407781207.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.497
+!MESSAGE Unable to access file "plugins/._com.aptana.console_3.0.0.1382639438.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.502
+!MESSAGE Unable to access file "plugins/._com.aptana.core.epl_3.0.0.1408083209.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.508
+!MESSAGE Unable to access file "plugins/._com.aptana.core.io_3.1.0.1408083209.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.515
+!MESSAGE Unable to access file "plugins/._com.aptana.core_3.3.0.1409799816.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.521
+!MESSAGE Unable to access file "plugins/._com.aptana.css.core_1.0.0.1409145987.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.525
+!MESSAGE Unable to access file "plugins/._com.aptana.debug.core_3.0.3.1407781207.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.530
+!MESSAGE Unable to access file "plugins/._com.aptana.debug.ui_3.0.3.1343658852.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.534
+!MESSAGE Unable to access file "plugins/._com.aptana.deploy.capistrano_3.0.3.1365788677.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.538
+!MESSAGE Unable to access file "plugins/._com.aptana.deploy.engineyard_3.0.3.1370883126.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.543
+!MESSAGE Unable to access file "plugins/._com.aptana.deploy.epl_3.0.0.1339628739.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.553
+!MESSAGE Unable to access file "plugins/._com.aptana.deploy.ftp_3.0.3.1355455818.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.558
+!MESSAGE Unable to access file "plugins/._com.aptana.deploy.heroku_3.0.3.1407782973.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.563
+!MESSAGE Unable to access file "plugins/._com.aptana.deploy.ui_1.0.0.1403719825.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.569
+!MESSAGE Unable to access file "plugins/._com.aptana.deploy_3.0.3.1407781207.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.574
+!MESSAGE Unable to access file "plugins/._com.aptana.documentation_3.0.0.1397674205.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.579
+!MESSAGE Unable to access file "plugins/._com.aptana.dtd.core_1.0.0.1355238609.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.583
+!MESSAGE Unable to access file "plugins/._com.aptana.editor.beaver_3.0.0.1365788962.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.587
+!MESSAGE Unable to access file "plugins/._com.aptana.editor.common.override_1.0.0.1351531287.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.598
+!MESSAGE Unable to access file "plugins/._com.aptana.editor.common_3.0.3.1408634393.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.607
+!MESSAGE Unable to access file "plugins/._com.aptana.editor.css.formatter_3.0.0.1407781207.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.615
+!MESSAGE Unable to access file "plugins/._com.aptana.editor.css_3.1.0.1407781207.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.619
+!MESSAGE Unable to access file "plugins/._com.aptana.editor.diff_3.0.0.1365788962.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.623
+!MESSAGE Unable to access file "plugins/._com.aptana.editor.dtd_3.0.0.1354746625.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.628
+!MESSAGE Unable to access file "plugins/._com.aptana.editor.epl_3.0.0.1398883419.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.633
+!MESSAGE Unable to access file "plugins/._com.aptana.editor.erb_3.0.3.1407782973.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.638
+!MESSAGE Unable to access file "plugins/._com.aptana.editor.findbar_3.0.0.1408146668.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.644
+!MESSAGE Unable to access file "plugins/._com.aptana.editor.haml_3.0.2.1407782973.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.649
+!MESSAGE Unable to access file "plugins/._com.aptana.editor.html.core_1.0.0.1384479598.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.654
+!MESSAGE Unable to access file "plugins/._com.aptana.editor.html.formatter_3.0.3.1407781207.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.667
+!MESSAGE Unable to access file "plugins/._com.aptana.editor.html_3.0.3.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.672
+!MESSAGE Unable to access file "plugins/._com.aptana.editor.idl_3.0.0.1365788962.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.676
+!MESSAGE Unable to access file "plugins/._com.aptana.editor.js.formatter_3.0.3.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.685
+!MESSAGE Unable to access file "plugins/._com.aptana.editor.js_3.0.3.1413588685.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.689
+!MESSAGE Unable to access file "plugins/._com.aptana.editor.json_3.0.0.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.694
+!MESSAGE Unable to access file "plugins/._com.aptana.editor.markdown_3.0.0.1365788962.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.709
+!MESSAGE Unable to access file "plugins/._com.aptana.editor.php.epl_3.3.0.1407783092.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.719
+!MESSAGE Unable to access file "plugins/._com.aptana.editor.php.formatter_3.3.0.1407783092.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.732
+!MESSAGE Unable to access file "plugins/._com.aptana.editor.php_3.3.0.1407783092.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.737
+!MESSAGE Unable to access file "plugins/._com.aptana.editor.ruby.formatter.epl_3.0.2.1407782973.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.742
+!MESSAGE Unable to access file "plugins/._com.aptana.editor.ruby_3.0.3.1407782973.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.747
+!MESSAGE Unable to access file "plugins/._com.aptana.editor.sass_3.0.2.1407782973.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.751
+!MESSAGE Unable to access file "plugins/._com.aptana.editor.svg_3.0.3.1407781207.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.755
+!MESSAGE Unable to access file "plugins/._com.aptana.editor.text_3.0.0.1339173764.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.759
+!MESSAGE Unable to access file "plugins/._com.aptana.editor.xml.formatter_3.0.0.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.764
+!MESSAGE Unable to access file "plugins/._com.aptana.editor.xml_3.0.0.1407781207.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.769
+!MESSAGE Unable to access file "plugins/._com.aptana.editor.yaml_3.0.0.1408371731.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.780
+!MESSAGE Unable to access file "plugins/._com.aptana.explorer_3.0.0.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.785
+!MESSAGE Unable to access file "plugins/._com.aptana.filesystem.ftp_3.0.0.1407781207.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.789
+!MESSAGE Unable to access file "plugins/._com.aptana.filesystem.http_3.0.0.1347887896.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.796
+!MESSAGE Unable to access file "plugins/._com.aptana.filesystem.secureftp_3.0.0.1384475641.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.801
+!MESSAGE Unable to access file "plugins/._com.aptana.filewatcher_3.0.1.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.807
+!MESSAGE Unable to access file "plugins/._com.aptana.formatter.epl_3.2.0.1407781207.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.814
+!MESSAGE Unable to access file "plugins/._com.aptana.formatter.ui.epl_3.0.0.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.830
+!MESSAGE Unable to access file "plugins/._com.aptana.git.ui_3.0.3.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.836
+!MESSAGE Unable to access file "plugins/._com.aptana.index.core.ui_3.0.0.1382385878.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.842
+!MESSAGE Unable to access file "plugins/._com.aptana.index.core_3.0.0.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.847
+!MESSAGE Unable to access file "plugins/._com.aptana.jetty.util.epl_3.0.0.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.852
+!MESSAGE Unable to access file "plugins/._com.aptana.jira.core_1.0.0.1398100904.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.858
+!MESSAGE Unable to access file "plugins/._com.aptana.jira.ui_1.0.0.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.937
+!MESSAGE Unable to access file "plugins/._com.aptana.js.core_3.0.0.1408348844.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.942
+!MESSAGE Unable to access file "plugins/._com.aptana.js.debug.core.v8_3.0.0.1407437730.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.948
+!MESSAGE Unable to access file "plugins/._com.aptana.js.debug.core_3.0.3.1407781207.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.964
+!MESSAGE Unable to access file "plugins/._com.aptana.js.debug.ui_3.0.0.1407781207.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.970
+!MESSAGE Unable to access file "plugins/._com.aptana.js.debug.v8.ui_3.0.0.1349739116.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.975
+!MESSAGE Unable to access file "plugins/._com.aptana.json.core_1.0.0.1357952606.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:35.983
+!MESSAGE Unable to access file "plugins/._com.aptana.org.eclipse.tm.terminal_3.1.0.1347109273.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.012
+!MESSAGE Unable to access file "plugins/._com.aptana.php.debug.epl_3.3.0.1407783092.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.018
+!MESSAGE Unable to access file "plugins/._com.aptana.php.debug_3.3.0.1344996500.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.028
+!MESSAGE Unable to access file "plugins/._com.aptana.portal.ui_3.0.0.1408146668.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.033
+!MESSAGE Unable to access file "plugins/._com.aptana.preview_3.0.0.1384475641.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.038
+!MESSAGE Unable to access file "plugins/._com.aptana.projects_3.0.0.1400201987.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.039
+!MESSAGE Unable to access file "plugins/._com.aptana.rcp.studio_3.0.0.1323993947.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.040
+!MESSAGE Unable to access file "plugins/._com.aptana.rcp_3.6.0.201410201044.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.061
+!MESSAGE Unable to access file "plugins/._com.aptana.ruby.core_3.0.2.1407782973.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.067
+!MESSAGE Unable to access file "plugins/._com.aptana.ruby.debug.core_3.0.2.1353114533.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.072
+!MESSAGE Unable to access file "plugins/._com.aptana.ruby.debug.ui_3.0.2.1397658528.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.077
+!MESSAGE Unable to access file "plugins/._com.aptana.ruby.launching_3.0.2.1340741978.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.081
+!MESSAGE Unable to access file "plugins/._com.aptana.ruby.rake_3.0.0.1332171281.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.086
+!MESSAGE Unable to access file "plugins/._com.aptana.ruby.ui_3.0.2.1347479530.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.091
+!MESSAGE Unable to access file "plugins/._com.aptana.samples.ui_3.0.0.1401916398.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.095
+!MESSAGE Unable to access file "plugins/._com.aptana.samples_3.0.0.1386199709.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.108
+!MESSAGE Unable to access file "plugins/._com.aptana.scripting.ui_3.0.0.1397622810.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.120
+!MESSAGE Unable to access file "plugins/._com.aptana.scripting_3.1.0.1397674205.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.126
+!MESSAGE Unable to access file "plugins/._com.aptana.studio.rubles_3.0.0.1365788974.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.131
+!MESSAGE Unable to access file "plugins/._com.aptana.syncing.core_3.0.0.1380665828.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.140
+!MESSAGE Unable to access file "plugins/._com.aptana.syncing.ui_3.0.3.1407808737.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.149
+!MESSAGE Unable to access file "plugins/._com.aptana.theme_3.0.0.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.157
+!MESSAGE Unable to access file "plugins/._com.aptana.ui.epl_3.0.0.1408146668.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.167
+!MESSAGE Unable to access file "plugins/._com.aptana.ui.ftp_3.0.0.1407781207.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.172
+!MESSAGE Unable to access file "plugins/._com.aptana.ui.io.epl_3.0.0.1329404579.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.181
+!MESSAGE Unable to access file "plugins/._com.aptana.ui.io_3.0.0.1408146668.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.185
+!MESSAGE Unable to access file "plugins/._com.aptana.ui.override_1.0.0.1362523908.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.191
+!MESSAGE Unable to access file "plugins/._com.aptana.ui.secureftp_3.0.0.1337406272.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.199
+!MESSAGE Unable to access file "plugins/._com.aptana.ui_3.1.4.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.204
+!MESSAGE Unable to access file "plugins/._com.aptana.usage_3.0.0.1413590556.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.209
+!MESSAGE Unable to access file "plugins/._com.aptana.webserver.core_3.0.0.1407781207.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.215
+!MESSAGE Unable to access file "plugins/._com.aptana.webserver.ui_3.0.0.1407781207.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.229
+!MESSAGE Unable to access file "plugins/._com.aptana.workbench_3.0.0.1407781207.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.235
+!MESSAGE Unable to access file "plugins/._com.aptana.xml.core_1.0.0.1407345899.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.271
+!MESSAGE Unable to access file "plugins/._com.ibm.icu_50.1.1.v201304230130.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.277
+!MESSAGE Unable to access file "plugins/._com.jcraft.jsch_0.1.50.v201310081430.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.291
+!MESSAGE Unable to access file "plugins/._com.sun.el_2.2.0.v201303151357.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.292
+!MESSAGE Unable to access file "plugins/._javax.annotation_1.1.0.v201209060031.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.296
+!MESSAGE Unable to access file "plugins/._javax.el_2.2.0.v201303151357.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.296
+!MESSAGE Unable to access file "plugins/._javax.inject_1.0.0.v20091030.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.300
+!MESSAGE Unable to access file "plugins/._javax.servlet.jsp_2.2.0.v201112011158.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.304
+!MESSAGE Unable to access file "plugins/._javax.servlet_3.0.0.v201112011016.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.312
+!MESSAGE Unable to access file "plugins/._javax.xml_1.3.4.v201005080400.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.313
+!MESSAGE Unable to access file "plugins/._json.simple_1.1.0.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.326
+!MESSAGE Unable to access file "plugins/._lib.org.chromium.sdk_0.3.2.1407437730.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.330
+!MESSAGE Unable to access file "plugins/._net.jeeeyul.eclipse.themes_1.7.4.1395329541.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.345
+!MESSAGE Unable to access file "plugins/._org.apache.batik.css_1.6.0.v201011041432.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.353
+!MESSAGE Unable to access file "plugins/._org.apache.batik.util.gui_1.6.0.v201011041432.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.359
+!MESSAGE Unable to access file "plugins/._org.apache.batik.util_1.6.0.v201011041432.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.364
+!MESSAGE Unable to access file "plugins/._org.apache.commons.codec_1.4.0.v201209201156.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.371
+!MESSAGE Unable to access file "plugins/._org.apache.commons.codec_1.6.0.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.377
+!MESSAGE Unable to access file "plugins/._org.apache.commons.logging_1.1.1.v201101211721.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.382
+!MESSAGE Unable to access file "plugins/._org.apache.felix.gogo.command_0.10.0.v201209301215.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.391
+!MESSAGE Unable to access file "plugins/._org.apache.felix.gogo.runtime_0.10.0.v201209301036.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.396
+!MESSAGE Unable to access file "plugins/._org.apache.felix.gogo.shell_0.10.0.v201212101605.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.407
+!MESSAGE Unable to access file "plugins/._org.apache.httpcomponents.httpclient_4.1.3.v201209201135.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.417
+!MESSAGE Unable to access file "plugins/._org.apache.httpcomponents.httpclient_4.2.2.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.425
+!MESSAGE Unable to access file "plugins/._org.apache.httpcomponents.httpcore_4.1.4.v201203221030.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.443
+!MESSAGE Unable to access file "plugins/._org.apache.httpcomponents.httpcore_4.2.2.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.458
+!MESSAGE Unable to access file "plugins/._org.apache.jasper.glassfish_2.2.2.v201205150955.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.468
+!MESSAGE Unable to access file "plugins/._org.apache.lucene.analysis_3.5.0.v20120725-1805.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.484
+!MESSAGE Unable to access file "plugins/._org.apache.lucene.core_3.5.0.v20120725-1805.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.489
+!MESSAGE Unable to access file "plugins/._org.eclipse.ant.core_3.2.500.v20140203-1328.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.499
+!MESSAGE Unable to access file "plugins/._org.eclipse.compare.core_3.5.300.v20130514-1224.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.511
+!MESSAGE Unable to access file "plugins/._org.eclipse.compare_3.5.401.v20130709-1308.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.516
+!MESSAGE Unable to access file "plugins/._org.eclipse.core.commands_3.6.100.v20130515-1857.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.517
+!MESSAGE Unable to access file "plugins/._org.eclipse.core.contenttype_3.4.200.v20130326-1255.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.523
+!MESSAGE Unable to access file "plugins/._org.eclipse.core.databinding.beans_1.2.200.v20130515-1857.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.532
+!MESSAGE Unable to access file "plugins/._org.eclipse.core.databinding.observable_1.4.1.v20130515-1857.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.540
+!MESSAGE Unable to access file "plugins/._org.eclipse.core.databinding.property_1.4.200.v20130515-1857.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.554
+!MESSAGE Unable to access file "plugins/._org.eclipse.core.databinding_1.4.1.v20130515-1857.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.560
+!MESSAGE Unable to access file "plugins/._org.eclipse.core.expressions_3.4.501.v20131118-1915.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.564
+!MESSAGE Unable to access file "plugins/._org.eclipse.core.externaltools_1.0.200.v20130402-1741.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.569
+!MESSAGE Unable to access file "plugins/._org.eclipse.core.filebuffers_3.5.300.v20130225-1821.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.573
+!MESSAGE Unable to access file "plugins/._org.eclipse.core.filesystem.macosx_1.3.0.v20100505-2103.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.577
+!MESSAGE Unable to access file "plugins/._org.eclipse.core.filesystem_1.4.0.v20130514-1240.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.578
+!MESSAGE Unable to access file "plugins/._org.eclipse.core.jobs_3.5.300.v20130429-1813.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.584
+!MESSAGE Unable to access file "plugins/._org.eclipse.core.net_1.2.200.v20130430-1352.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.595
+!MESSAGE Unable to access file "plugins/._org.eclipse.core.resources_3.8.101.v20130717-0806.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.599
+!MESSAGE Unable to access file "plugins/._org.eclipse.core.runtime.compatibility_3.2.200.v20130326-1255.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.599
+!MESSAGE Unable to access file "plugins/._org.eclipse.core.runtime_3.9.100.v20131218-1515.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.605
+!MESSAGE Unable to access file "plugins/._org.eclipse.core.variables_3.2.700.v20130402-1741.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.619
+!MESSAGE Unable to access file "plugins/._org.eclipse.debug.core_3.8.0.v20130514-0954.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.646
+!MESSAGE Unable to access file "plugins/._org.eclipse.debug.ui_3.9.0.v20130516-1713.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.650
+!MESSAGE Unable to access file "plugins/._org.eclipse.e4.core.commands_0.10.2.v20130515-1857.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.655
+!MESSAGE Unable to access file "plugins/._org.eclipse.e4.core.contexts_1.3.1.v20130905-0905.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.664
+!MESSAGE Unable to access file "plugins/._org.eclipse.e4.core.di.extensions_0.11.100.v20130514-1256.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.669
+!MESSAGE Unable to access file "plugins/._org.eclipse.e4.core.di_1.3.0.v20130514-1256.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.674
+!MESSAGE Unable to access file "plugins/._org.eclipse.e4.core.services_1.1.0.v20130515-1343.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.678
+!MESSAGE Unable to access file "plugins/._org.eclipse.e4.ui.bindings_0.10.102.v20140117-1939.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.682
+!MESSAGE Unable to access file "plugins/._org.eclipse.e4.ui.css.core_0.10.100.v20130515-1857.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.683
+!MESSAGE Unable to access file "plugins/._org.eclipse.e4.ui.css.swt.theme_0.9.100.v20130515-1857.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.690
+!MESSAGE Unable to access file "plugins/._org.eclipse.e4.ui.css.swt_0.11.0.v20130515-1857.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.694
+!MESSAGE Unable to access file "plugins/._org.eclipse.e4.ui.di_1.0.0.v20130515-1857.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.704
+!MESSAGE Unable to access file "plugins/._org.eclipse.e4.ui.model.workbench_1.0.1.v20131118-1956.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.709
+!MESSAGE Unable to access file "plugins/._org.eclipse.e4.ui.services_1.0.1.v20131118-1940.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.714
+!MESSAGE Unable to access file "plugins/._org.eclipse.e4.ui.widgets_1.0.0.v20130515-1857.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.729
+!MESSAGE Unable to access file "plugins/._org.eclipse.e4.ui.workbench.addons.swt_1.0.2.v20131129-1621.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.734
+!MESSAGE Unable to access file "plugins/._org.eclipse.e4.ui.workbench.renderers.swt.cocoa_0.11.100.v20130516-1100.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.742
+!MESSAGE Unable to access file "plugins/._org.eclipse.e4.ui.workbench.renderers.swt_0.11.2.v20140205-1834.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.749
+!MESSAGE Unable to access file "plugins/._org.eclipse.e4.ui.workbench.swt_0.12.2.v20140117-1939.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.789
+!MESSAGE Unable to access file "plugins/._org.eclipse.e4.ui.workbench3_0.12.0.v20130515-1857.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.797
+!MESSAGE Unable to access file "plugins/._org.eclipse.e4.ui.workbench_1.0.2.v20131202-1739.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.802
+!MESSAGE Unable to access file "plugins/._org.eclipse.ecf.filetransfer_5.0.0.v20130604-1622.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.807
+!MESSAGE Unable to access file "plugins/._org.eclipse.ecf.identity_3.2.0.v20130604-1622.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.812
+!MESSAGE Unable to access file "plugins/._org.eclipse.ecf.provider.filetransfer.httpclient4.ssl_1.0.0.v20130604-1622.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.817
+!MESSAGE Unable to access file "plugins/._org.eclipse.ecf.provider.filetransfer.httpclient4_1.0.300.v20130604-1622.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.821
+!MESSAGE Unable to access file "plugins/._org.eclipse.ecf.provider.filetransfer.ssl_1.0.0.v20130604-1622.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.826
+!MESSAGE Unable to access file "plugins/._org.eclipse.ecf.provider.filetransfer_3.2.0.v20130604-1622.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.831
+!MESSAGE Unable to access file "plugins/._org.eclipse.ecf.ssl_1.1.0.v20130604-1622.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.836
+!MESSAGE Unable to access file "plugins/._org.eclipse.ecf_3.2.0.v20130604-1622.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.848
+!MESSAGE Unable to access file "plugins/._org.eclipse.emf.common_2.9.2.v20131212-0545.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.854
+!MESSAGE Unable to access file "plugins/._org.eclipse.emf.ecore.change_2.9.0.v20131212-0545.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.859
+!MESSAGE Unable to access file "plugins/._org.eclipse.emf.ecore.xmi_2.9.1.v20131212-0545.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.874
+!MESSAGE Unable to access file "plugins/._org.eclipse.emf.ecore_2.9.2.v20131212-0545.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.874
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.app_1.3.100.v20130327-1442.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.882
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.bidi_0.10.0.v20130327-1442.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.882
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.common_3.6.200.v20130402-1505.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.888
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.concurrent_1.1.0.v20130327-1442.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.894
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.console_1.0.100.v20130429-0953.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.895
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.ds_1.4.101.v20130813-1853.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.907
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.event_1.3.0.v20130327-1442.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.912
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.frameworkadmin.equinox_1.0.500.v20130327-2119.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.916
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.frameworkadmin_2.0.100.v20130327-2119.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.921
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.http.jetty_3.0.100.v20130327-1442.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.925
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.http.registry_1.1.300.v20130402-1529.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.929
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.http.servlet_1.1.400.v20130418-1354.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.933
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.jsp.jasper.registry_1.0.300.v20130327-1442.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.937
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.jsp.jasper_1.0.400.v20130327-1442.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.940
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.launcher_1.3.0.v20130327-1440.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.945
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.p2.artifact.repository_1.1.200.v20130515-2028.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.954
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.p2.console_1.0.300.v20130327-2119.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.960
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.p2.core_2.3.0.v20130327-2119.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.966
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.p2.director.app_1.0.300.v20130819-1621.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.971
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.p2.director_2.3.1.v20140221-1852.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.978
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.p2.directorywatcher_1.0.300.v20130327-2119.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.985
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.p2.engine_2.3.0.v20130526-2122.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.990
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.p2.extensionlocation_1.2.100.v20130327-2119.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:36.996
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.p2.garbagecollector_1.0.200.v20130327-2119.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.006
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.p2.jarprocessor_1.0.300.v20130327-2119.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.012
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.p2.metadata.repository_1.2.100.v20130327-2119.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.020
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.p2.metadata_2.2.0.v20130523-1557.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.026
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.p2.operations_2.3.0.v20130711-1809.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.031
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.p2.publisher.eclipse_1.1.200.v20130516-1953.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.036
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.p2.publisher_1.3.0.v20140129-1405.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.041
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.p2.ql_2.0.100.v20130327-2119.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.046
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.p2.reconciler.dropins_1.1.200.v20130419-1850.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.052
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.p2.repository.tools_2.1.0.v20130327-2119.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.063
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.p2.repository_2.3.0.v20130412-2032.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.068
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.p2.touchpoint.eclipse_2.1.200.v20130327-2119.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.072
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.p2.touchpoint.natives_1.1.100.v20130327-2119.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.077
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.p2.transport.ecf_1.1.0.v20130516-1858.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.082
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.p2.ui.importexport_1.1.0.v20131209-2052.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.088
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.p2.ui.sdk.scheduler_1.2.0.v20140122-1840.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.093
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.p2.ui.sdk_1.0.300.v20130503-1750.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.104
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.p2.ui_2.3.0.v20131209-2052.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.109
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.p2.updatechecker_1.1.200.v20130327-2119.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.122
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.p2.updatesite_1.0.400.v20130515-2028.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.122
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.preferences_3.5.100.v20130422-1538.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.129
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.registry_3.5.301.v20130717-1549.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.134
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.security.macosx_1.100.200.v20130327-1442.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.142
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.security.ui_1.1.100.v20130327-1442.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.147
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.security_1.2.0.v20130424-1801.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.151
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.simpleconfigurator.manipulator_2.0.0.v20130327-2119.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.152
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.simpleconfigurator_1.0.400.v20130327-2119.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.153
+!MESSAGE Unable to access file "plugins/._org.eclipse.equinox.util_1.0.500.v20130404-1337.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.164
+!MESSAGE Unable to access file "plugins/._org.eclipse.help.base_4.0.1.v20140221-1700.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.178
+!MESSAGE Unable to access file "plugins/._org.eclipse.help.ui_4.0.1.v20130708-1201.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.187
+!MESSAGE Unable to access file "plugins/._org.eclipse.help.webapp_3.6.200.v20130514-1258.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.193
+!MESSAGE Unable to access file "plugins/._org.eclipse.help_3.6.0.v20130326-1254.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.198
+!MESSAGE Unable to access file "plugins/._org.eclipse.jetty.continuation_8.1.14.v20131031.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.203
+!MESSAGE Unable to access file "plugins/._org.eclipse.jetty.http_8.1.14.v20131031.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.209
+!MESSAGE Unable to access file "plugins/._org.eclipse.jetty.io_8.1.14.v20131031.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.216
+!MESSAGE Unable to access file "plugins/._org.eclipse.jetty.security_8.1.14.v20131031.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.223
+!MESSAGE Unable to access file "plugins/._org.eclipse.jetty.server_8.1.14.v20131031.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.228
+!MESSAGE Unable to access file "plugins/._org.eclipse.jetty.servlet_8.1.14.v20131031.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.239
+!MESSAGE Unable to access file "plugins/._org.eclipse.jetty.util_8.1.14.v20131031.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.247
+!MESSAGE Unable to access file "plugins/._org.eclipse.jface.databinding_1.6.200.v20130515-1857.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.262
+!MESSAGE Unable to access file "plugins/._org.eclipse.jface.text_3.8.101.v20130802-1147.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.280
+!MESSAGE Unable to access file "plugins/._org.eclipse.jface_3.9.1.v20130725-1141.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.293
+!MESSAGE Unable to access file "plugins/._org.eclipse.jsch.core_1.1.402.v20131127-1657.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.298
+!MESSAGE Unable to access file "plugins/._org.eclipse.jsch.ui_1.1.402.v20131127-1657.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.305
+!MESSAGE Unable to access file "plugins/._org.eclipse.ltk.core.refactoring_3.6.100.v20130605-1748.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.315
+!MESSAGE Unable to access file "plugins/._org.eclipse.ltk.ui.refactoring_3.7.100.v20130605-1748.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.315
+!MESSAGE Unable to access file "plugins/._org.eclipse.osgi.services_3.3.100.v20130513-1956.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.320
+!MESSAGE Unable to access file "plugins/._org.eclipse.osgi.util_3.2.300.v20130513-1956.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.322
+!MESSAGE Unable to access file "plugins/._org.eclipse.osgi_3.9.1.v20140110-1610.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.341
+!MESSAGE Unable to access file "plugins/._org.eclipse.platform.doc.user_4.3.1.v20140123-0938.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.349
+!MESSAGE Unable to access file "plugins/._org.eclipse.rcp_4.3.0.v20140221-1700.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.361
+!MESSAGE Unable to access file "plugins/._org.eclipse.search_3.9.1.v20131121-1346.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.368
+!MESSAGE Unable to access file "plugins/._org.eclipse.swt.cocoa.macosx_3.102.1.v20140206-1358.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.368
+!MESSAGE Unable to access file "plugins/._org.eclipse.swt_3.102.1.v20140206-1334.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.381
+!MESSAGE Unable to access file "plugins/._org.eclipse.team.core_3.7.0.v20130514-1224.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.402
+!MESSAGE Unable to access file "plugins/._org.eclipse.team.ui_3.7.1.v20130729-1104.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.409
+!MESSAGE Unable to access file "plugins/._org.eclipse.text_3.5.300.v20130515-1451.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.415
+!MESSAGE Unable to access file "plugins/._org.eclipse.ui.browser_3.4.100.v20130527-1656.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.424
+!MESSAGE Unable to access file "plugins/._org.eclipse.ui.cheatsheets_3.4.200.v20130326-1254.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.467
+!MESSAGE Unable to access file "plugins/._org.eclipse.ui.console_3.5.200.v20130514-0954.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.478
+!MESSAGE Unable to access file "plugins/._org.eclipse.ui.editors_3.8.100.v20130513-1637.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.484
+!MESSAGE Unable to access file "plugins/._org.eclipse.ui.externaltools_3.2.200.v20130508-2007.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.491
+!MESSAGE Unable to access file "plugins/._org.eclipse.ui.forms_3.6.1.v20130822-1117.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.496
+!MESSAGE Unable to access file "plugins/._org.eclipse.ui.ide.application_1.0.401.v20131105-1007.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.517
+!MESSAGE Unable to access file "plugins/._org.eclipse.ui.ide_3.9.2.v20131004-0923.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.536
+!MESSAGE Unable to access file "plugins/._org.eclipse.ui.intro_3.4.200.v20130326-1254.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.541
+!MESSAGE Unable to access file "plugins/._org.eclipse.ui.navigator.resources_3.4.501.v20131021-1545.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.551
+!MESSAGE Unable to access file "plugins/._org.eclipse.ui.navigator_3.5.300.v20130517-0139.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.557
+!MESSAGE Unable to access file "plugins/._org.eclipse.ui.net_1.2.200.v20120807-0927.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.562
+!MESSAGE Unable to access file "plugins/._org.eclipse.ui.views.properties.tabbed_3.6.0.v20130515-1857.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.568
+!MESSAGE Unable to access file "plugins/._org.eclipse.ui.views_3.6.100.v20130326-1250.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.583
+!MESSAGE Unable to access file "plugins/._org.eclipse.ui.workbench.texteditor_3.8.101.v20130729-1318.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.616
+!MESSAGE Unable to access file "plugins/._org.eclipse.ui.workbench_3.105.2.v20140211-1711.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.628
+!MESSAGE Unable to access file "plugins/._org.eclipse.ui_3.105.0.v20130522-1122.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.629
+!MESSAGE Unable to access file "plugins/._org.eclipse.update.configurator_3.3.200.v20140203-1328.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.634
+!MESSAGE Unable to access file "plugins/._org.hamcrest.core_1.3.0.v201303031735.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.661
+!MESSAGE Unable to access file "plugins/._org.jrubyparser_1.0.1.1315951256.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.674
+!MESSAGE Unable to access file "plugins/._org.mozilla.rhino_1.7.4.1340809267.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.705
+!MESSAGE Unable to access file "plugins/._org.radrails.rails.core_3.0.2.1345651386.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.709
+!MESSAGE Unable to access file "plugins/._org.radrails.rails.ui_3.0.2.1365778591.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.716
+!MESSAGE Unable to access file "plugins/._org.sat4j.core_2.3.5.v201308161310.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.721
+!MESSAGE Unable to access file "plugins/._org.sat4j.pb_2.3.5.v201308161310.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.725
+!MESSAGE Unable to access file "plugins/._org.w3c.css.sac_1.3.1.v200903091627.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.733
+!MESSAGE Unable to access file "plugins/._org.w3c.css_3.0.0.1308864319.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.737
+!MESSAGE Unable to access file "plugins/._org.w3c.dom.smil_1.0.0.v200806040011.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.update.configurator 4 0 2016-11-18 17:42:37.743
+!MESSAGE Unable to access file "plugins/._org.w3c.dom.svg_1.1.0.v201011041433.jar!META-INF/MANIFEST.MF".
+
+!ENTRY org.eclipse.core.net 1 0 2016-11-18 17:43:45.706
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui.workbench 4 2 2016-11-18 17:43:50.899
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.IllegalStateException: The profile is currently in use.
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.internalGetProfileStateProperties(SimpleProfileRegistry.java:1151)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfileStateProperties(SimpleProfileRegistry.java:1141)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.migration.MigrationSupport.isFirstTimeRunningThisSharedInstance(MigrationSupport.java:132)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.migration.MigrationSupport.performMigration(MigrationSupport.java:53)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdateScheduler.earlyStartup(AutomaticUpdateScheduler.java:89)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$55.run(Workbench.java:2555)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.ui 4 4 2016-11-18 17:43:50.914
+!MESSAGE Unhandled Exception
+
+!ENTRY org.eclipse.equinox.p2.ui.sdk.scheduler 4 0 2016-11-18 17:43:50.914
+!MESSAGE Unable to execute early startup code for an extension
+!STACK 0
+java.lang.IllegalStateException: The profile is currently in use.
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.internalGetProfileStateProperties(SimpleProfileRegistry.java:1151)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfileStateProperties(SimpleProfileRegistry.java:1141)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.migration.MigrationSupport.isFirstTimeRunningThisSharedInstance(MigrationSupport.java:132)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.migration.MigrationSupport.performMigration(MigrationSupport.java:53)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdateScheduler.earlyStartup(AutomaticUpdateScheduler.java:89)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$55.run(Workbench.java:2555)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-11-18 17:44:58.192
+!MESSAGE An internal error occurred during: "Sending Analytics Ping ...".
+!STACK 0
+java.lang.NullPointerException
+	at com.aptana.usage.internal.DefaultAnalyticsEventHandler.getAnalyticsLogger(DefaultAnalyticsEventHandler.java:207)
+	at com.aptana.usage.internal.DefaultAnalyticsEventHandler.sendEventSync(DefaultAnalyticsEventHandler.java:224)
+	at com.aptana.usage.internal.DefaultAnalyticsEventHandler$1.run(DefaultAnalyticsEventHandler.java:75)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SESSION 2016-11-20 14:21:03.809 -----------------------------------------------
+eclipse.buildId=3.6.1.201410201044
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/carlosarroyo/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/carlosarroyo/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2016-11-20 14:21:44.115
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui.workbench 4 2 2016-11-20 14:21:50.697
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.IllegalStateException: The profile is currently in use.
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.internalGetProfileStateProperties(SimpleProfileRegistry.java:1151)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfileStateProperties(SimpleProfileRegistry.java:1141)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.migration.MigrationSupport.isFirstTimeRunningThisSharedInstance(MigrationSupport.java:132)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.migration.MigrationSupport.performMigration(MigrationSupport.java:53)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdateScheduler.earlyStartup(AutomaticUpdateScheduler.java:89)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$55.run(Workbench.java:2555)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.ui 4 4 2016-11-20 14:21:50.704
+!MESSAGE Unhandled Exception
+
+!ENTRY org.eclipse.equinox.p2.ui.sdk.scheduler 4 0 2016-11-20 14:21:50.704
+!MESSAGE Unable to execute early startup code for an extension
+!STACK 0
+java.lang.IllegalStateException: The profile is currently in use.
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.internalGetProfileStateProperties(SimpleProfileRegistry.java:1151)
+	at org.eclipse.equinox.internal.p2.engine.SimpleProfileRegistry.getProfileStateProperties(SimpleProfileRegistry.java:1141)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.migration.MigrationSupport.isFirstTimeRunningThisSharedInstance(MigrationSupport.java:132)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.migration.MigrationSupport.performMigration(MigrationSupport.java:53)
+	at org.eclipse.equinox.internal.p2.ui.sdk.scheduler.AutomaticUpdateScheduler.earlyStartup(AutomaticUpdateScheduler.java:89)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.runEarlyStartup(EarlyStartupRunnable.java:87)
+	at org.eclipse.ui.internal.EarlyStartupRunnable.run(EarlyStartupRunnable.java:66)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench$55.run(Workbench.java:2555)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+
+!ENTRY org.eclipse.ui 4 0 2016-11-20 15:04:32.425
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.widgets.Control.internal_new_GC(Control.java:2118)
+	at org.eclipse.swt.graphics.GC.cocoa_new(GC.java:207)
+	at org.eclipse.swt.widgets.Tree.sendMeasureItem(Tree.java:2593)
+	at org.eclipse.swt.widgets.Tree.cellSize(Tree.java:288)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5446)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper_stret(Native Method)
+	at org.eclipse.swt.widgets.Widget.expansionFrameWithFrame_inView(Widget.java:798)
+	at org.eclipse.swt.widgets.Tree.expansionFrameWithFrame_inView(Tree.java:1271)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5825)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend_bool(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSRunLoop.runMode(NSRunLoop.java:42)
+	at org.eclipse.swt.widgets.Display.sleep(Display.java:4610)
+	at org.eclipse.ui.application.WorkbenchAdvisor.eventLoopIdle(WorkbenchAdvisor.java:364)
+	at com.aptana.rcp.IDEWorkbenchAdvisor.eventLoopIdle(IDEWorkbenchAdvisor.java:893)
+	at org.eclipse.ui.internal.Workbench$3.eventLoopIdle(Workbench.java:487)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1117)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at com.aptana.rcp.IDEApplication.start(IDEApplication.java:126)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.ui 4 0 2016-11-20 15:05:12.739
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.swt.widgets.Control.internal_new_GC(Control.java:2118)
+	at org.eclipse.swt.graphics.GC.cocoa_new(GC.java:207)
+	at org.eclipse.swt.widgets.Tree.sendMeasureItem(Tree.java:2593)
+	at org.eclipse.swt.widgets.Tree.cellSize(Tree.java:288)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5446)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper_stret(Native Method)
+	at org.eclipse.swt.widgets.Widget.expansionFrameWithFrame_inView(Widget.java:798)
+	at org.eclipse.swt.widgets.Tree.expansionFrameWithFrame_inView(Tree.java:1271)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5825)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend_bool(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSRunLoop.runMode(NSRunLoop.java:42)
+	at org.eclipse.swt.widgets.Display.sleep(Display.java:4610)
+	at org.eclipse.ui.application.WorkbenchAdvisor.eventLoopIdle(WorkbenchAdvisor.java:364)
+	at com.aptana.rcp.IDEWorkbenchAdvisor.eventLoopIdle(IDEWorkbenchAdvisor.java:893)
+	at org.eclipse.ui.internal.Workbench$3.eventLoopIdle(Workbench.java:487)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1117)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at com.aptana.rcp.IDEApplication.start(IDEApplication.java:126)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+!SESSION 2016-11-20 15:21:48.931 -----------------------------------------------
+eclipse.buildId=3.6.1.201410201044
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/carlosarroyo/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/carlosarroyo/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2016-11-20 15:22:39.893
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-11-23 12:43:16.788
+!MESSAGE An internal error occurred during: "Sending Analytics Ping ...".
+!STACK 0
+java.lang.NullPointerException
+	at com.aptana.usage.internal.DefaultAnalyticsEventHandler.getAnalyticsLogger(DefaultAnalyticsEventHandler.java:207)
+	at com.aptana.usage.internal.DefaultAnalyticsEventHandler.sendEventSync(DefaultAnalyticsEventHandler.java:224)
+	at com.aptana.usage.internal.DefaultAnalyticsEventHandler$1.run(DefaultAnalyticsEventHandler.java:75)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SESSION 2016-11-25 16:45:52.569 -----------------------------------------------
+eclipse.buildId=3.6.1.201410201044
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/carlosarroyo/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/carlosarroyo/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2016-11-25 16:46:10.974
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-11-25 17:19:15.686
+!MESSAGE An internal error occurred during: "Sending Analytics Ping ...".
+!STACK 0
+java.lang.NullPointerException
+	at com.aptana.usage.internal.DefaultAnalyticsEventHandler.getAnalyticsLogger(DefaultAnalyticsEventHandler.java:207)
+	at com.aptana.usage.internal.DefaultAnalyticsEventHandler.sendEventSync(DefaultAnalyticsEventHandler.java:224)
+	at com.aptana.usage.internal.DefaultAnalyticsEventHandler$1.run(DefaultAnalyticsEventHandler.java:75)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SESSION 2016-11-26 10:46:50.397 -----------------------------------------------
+eclipse.buildId=3.6.1.201410201044
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86, WS=cocoa, NL=en_US
+Framework arguments:  -keyring /Users/carlosarroyo/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86 -keyring /Users/carlosarroyo/.eclipse_keyring -consoleLog -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2016-11-26 10:47:04.931
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.jobs 4 2 2016-11-26 13:59:48.782
+!MESSAGE An internal error occurred during: "Sending Analytics Ping ...".
+!STACK 0
+java.lang.NullPointerException
+	at com.aptana.usage.internal.DefaultAnalyticsEventHandler.getAnalyticsLogger(DefaultAnalyticsEventHandler.java:207)
+	at com.aptana.usage.internal.DefaultAnalyticsEventHandler.sendEventSync(DefaultAnalyticsEventHandler.java:224)
+	at com.aptana.usage.internal.DefaultAnalyticsEventHandler$1.run(DefaultAnalyticsEventHandler.java:75)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)

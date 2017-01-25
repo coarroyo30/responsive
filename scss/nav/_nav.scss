@@ -1,0 +1,126 @@
+//navigations
+#toggle {
+  img {
+    margin: auto;
+    padding: 0 0 10px 0;
+    text-align: center;
+  }
+  
+  @include bp(narrow) {
+      display: none;
+  }
+  
+  @include bp(wide) {
+    display: none;
+  }
+}
+
+
+.main-nav {
+  text-align: center;
+  
+  @include bp(wide) {
+    display: $display;
+    float: right;
+    clear: left;
+    margin: 70px 0 -15px 0;
+    padding-bottom: 0;
+    
+    ul {
+      padding: 0 30px 40px 0;
+      border: none;
+    }
+  }
+}
+
+.secondary-nav {
+  border: 10px;
+  border-top: solid 1px $lightgray;
+  @extend %padding-top;
+  
+  @include bp(max) {
+    ul {
+      visibility: hidden;
+      display: none;
+    }
+  }
+  
+  @include bp(narrow) {
+    padding-top: 0px;
+    display: flex;
+    justify-content: space-between;
+    
+    h3 {
+      margin-top: 28px;
+    }
+    
+    ul {
+      margin: 24px 0;
+      padding: 0;
+      border: none;
+    }
+  }
+  
+  @include bp(narrow) {
+    ul li {
+      padding-right: 0;
+    }
+  }
+  
+  @include bp(narrow) {
+    ul li a {
+      font-size: $ssize;
+    }
+  }
+}
+
+.secondary-nav h3, .secondary-nav p {
+  display: $display;
+  font-weight: bold;
+  text-transform: $ucase;
+  font-size: $ssize;
+}
+
+.secondary-nav p a {
+  @include textDecor;
+}
+
+.secondary-nav p {
+  float: right;
+  padding-right: 0;
+  
+  @include bp(narrow) {
+    visibility: hidden;
+    display: none;
+    float: none;
+  }
+}
+
+header p {
+  padding: 0 0 40px 0;
+  color: $gcolor;
+}
+
+ul, li {
+  @extend %center;
+  text-decoration: none;
+  list-style: none;
+  background-color: $white; 
+  box-sizing: border-box;
+  padding: 10px 0;
+  margin: -10px 0;
+  border: 4px solid $background;
+  text-transform: $ucase;
+  font-weight: bold;
+  
+  @include bp(narrow) {
+    display: inline;
+    border: none;
+    background-color: $background;
+    padding: 0px 20px;
+  }
+}
+
+ul li a {
+  @include textDecor;
+}
